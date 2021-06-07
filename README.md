@@ -12,7 +12,7 @@ As explained in the framework, inputs are read from SparkRepository or Connector
 
 #### I have a CSV input file with a lot of fields, but I only need a few ones, what can I do ?
 
-You can create a case class containing the fields you want, create a SparkRepository with this case class as type, and setting the config of the CSV file. The example is with the case class ```Player``` which is used to read the  ```matches.csv``` file.
+You can create a case class containing the fields you want, create a SparkRepository with this case class as type, and setting the config of the CSV file. The example is with the case class ```Player``` which is used to read the  ```participants.csv``` file.
 
 NB : This does not only works with CSV, it also works for Excel or Parquet format.
 
